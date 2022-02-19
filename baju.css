@@ -1,0 +1,107 @@
+* {box-sizing: border-box}
+.container{width: 1500px;margin: auto;}
+h3{
+    background-color: #274F8F;
+    color: #fff;
+    padding: 10px;
+    width: 1300px;
+    margin-top: -20px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    color:#274F8F;
+    text-indent: 7em;
+        
+}
+
+a{
+    color: #fff;
+    text-decoration:none;
+
+}
+
+p{
+    /* text-indent: 6em; */
+    background-color: #ccc;
+    }
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: rgba(100, 99, 71, 0.2);
+    width: 17%;
+    height: 400px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.tab button:hover {background-color: #ddd;}
+.tab button.active {background-color: #ccc;}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+
+header {
+    background: url(coba.gif);
+    height: 148px;
+    text-align:center;
+    font-size: 35px;
+    color: white;
+  }
+
+  article{
+    font-family: cursive;
+    font-size: 18px; 
+    font-weight: 00; 
+    line-height: 26.4px;
+    text-align: justify;
+    padding: 20px;
+    width: 1358px;
+    background: url(bg.gif);
+    height: 510px; 
+    overflow: scroll;
+    overflow-x:hidden ;
+
+  }
+
+
+  .containerr {
+    width: 100%;
+    background-color: rgb(214, 205, 205);
+    border-radius: 40px;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(7, 7, 7);
+    border-radius: 20px;
+  }
+  
+
+  .piton {width: 90%; background-color: #04AA6D; }
+  .php {width: 70%; background-color: #2196F3;}
+  .html {width: 70%; background-color: #f44336;}
+  .css {width: 60%; background-color: #becf73;}
+  
+  
